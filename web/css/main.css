@@ -1,0 +1,97 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	font-family: Sans-serif;
+}
+/* 新页面样式 */
+.box_head{
+	width: 94%;
+	background: #fff;
+	display: flex;
+	padding: 3%;
+	/*定位顶部悬浮*/
+	position:fixed;
+    margin-top:0; 
+}
+/*head concent*/
+.box_left{
+	float: left;
+	flex: 1;
+}
+.box_center{
+	width: auto;
+	font-size: 17;
+	float: left;
+	color: #25B7F5;
+	flex: 1;
+}
+.box_rignt{
+	float: right;
+	flex: 1;
+}
+/*a标签样式*/
+a{
+	color: #25B7F5;
+	font-size: 17;
+	text-decoration: none;	
+}
+/*消息文字*/
+.chatBox {
+	color: #878B99;
+	background: #ECEDF1;
+	height: auto;
+	width: 100%;
+	text-align: center;
+}
+/*欢迎语上边距*/
+.chatBox p{
+	padding-top: 60;
+}
+/*---------------------分割线---------------------*/
+/*聊天背景*/
+#body {
+	background: #ECEDF1;
+	height: 100%;
+	width: 100%;
+}
+/*底部button*/
+#box2 {
+	height: 10%;
+	width: 100%;
+	/*定位底部悬浮*/
+	position: fixed;
+	bottom: 0;
+	z-index:9999
+}
+/*button content*/
+#userInput {
+	display:inline-block;
+	padding: 10;
+	width: 55%;
+	text-decoration: none;
+	text-indent: 15;
+	border-radius: 20;
+	border-width: 0;
+	margin-right: 10;
+	margin-left: 10;
+	font-size: 16;
+}
+#send, #clean {
+	display:inline-block;
+	width: 60;
+	height: 35;
+	color: #fff;
+	font-size: 16;
+	background: #25B7F5;
+	/*消除button的默认样式*/ /*这种写法是对所有的button标签同时生效*/
+    margin: 0px;
+    padding: 0px;
+    /*自定义边框*/
+    border: 0px;
+    /*消除默认点击蓝色边框效果*/
+    outline: none;
+    -webkit-appearance: none;
+}
+#fMessage{
+	height: 39;
+}
