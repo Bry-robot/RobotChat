@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<aiml version="1.0">
+
+<meta name="author" content="kompasim"/>
+
+<!-- includes -->
+<include file="./demo/demo.aiml"/>
+<include file="./demo/01.aiml"/>
+
+
+<category>
+    <pattern>你好</pattern>
+    <template>
+        你好吖 ...
+    </template>
+</category>
+
+
+<default>
+    <srai>DEFAULT</srai>
+</default>
+
+<category>
+    <pattern>DEFAULT</pattern>
+    <template>
+        <random>
+        <li>什么鬼...</li>
+        </random>
+    </template>
+</category>
+
+
+<!-- the uyghur aiml file, you can delete it if don't need -->
+
+</aiml>
