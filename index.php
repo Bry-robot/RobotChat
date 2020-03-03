@@ -5,7 +5,7 @@
     <title>RobotChat</title>
     <script src="web/js/jquery.js" type="text/javascript"></script>
     <link rel="stylesheet" href="web/css/main.css" type="text/css"/>
-	<meta name="viewport" content="width=drvice-width,height=device-height,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
     <script type="text/javascript">
         $(document).ready(function () {
 
